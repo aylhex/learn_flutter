@@ -4,11 +4,8 @@ import 'package:testflutter/model/message/chat_page.dart';
 
 class MessagePage extends StatefulWidget {
 
-
-
   @override
   _MessagePage createState() => _MessagePage();
-
 }
 
 class _MessagePage extends State<MessagePage> {

@@ -17,7 +17,6 @@ class ChatPage extends StatefulWidget {
 
 class _ChatPage extends State<ChatPage> {
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
