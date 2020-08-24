@@ -19,7 +19,7 @@ class NinePictureView extends StatelessWidget{
                 (index) => GestureDetector(
                   child: Container(
                     child: Padding(
-                      padding: EdgeInsets.all(2),
+                      padding: EdgeInsets.all(2.0),
                       child: Image.asset(picList[index], fit: BoxFit.cover,),
                     ),
                   ),
