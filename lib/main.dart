@@ -40,17 +40,6 @@ class BasicHome extends StatefulWidget{
 }
 
 class Home extends State<BasicHome>{
-  final List<String> picList = [
-    Constant.ASSETS_IMG+"test1.jpeg",
-    Constant.ASSETS_IMG+"test2.jpeg",
-    Constant.ASSETS_IMG+"test3.jpeg",
-    Constant.ASSETS_IMG+"test4.jpeg",
-    Constant.ASSETS_IMG+"test5.jpeg",
-    Constant.ASSETS_IMG+"test6.jpeg",
-    Constant.ASSETS_IMG+"test7.jpeg",
-//    Constant.ASSETS_IMG+"test8.jpeg",
-//    Constant.ASSETS_IMG+"test9.jpeg",
-  ];
   @override
   Widget build(BuildContext context) {
     return DynamicPage();
