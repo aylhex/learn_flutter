@@ -5,6 +5,7 @@ import 'package:testflutter/model/chip/feature_page.dart';
 import 'package:testflutter/model/dynamic/dynamic_page.dart';
 import 'package:testflutter/model/message/message_page.dart';
 import 'package:testflutter/model/pages/nine_picture_view_widget.dart';
+import 'package:testflutter/model/pages/video_page.dart';
 import 'package:testflutter/model/row_model.dart';
 import 'package:testflutter/model/test_button.dart';
 
@@ -42,7 +43,7 @@ class BasicHome extends StatefulWidget{
 class Home extends State<BasicHome>{
   @override
   Widget build(BuildContext context) {
-    return DynamicPage();
+    return VideoDisplayWidget();
   }
 }
 
